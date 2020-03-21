@@ -18,12 +18,12 @@ export class SkillsComponent implements OnInit {
       name: "Java"
     },
     {
-      icon: "devicons-jenkins",
-      name: "Jenkins"
+      icon: "devicons-csharp",
+      name: "C#"
     },
     {
-      icon: "devicons-git",
-      name: "Git"
+      icon: "devicons-dot-net",
+      name: ".NET"
     },
     {
       icon: "devicons-html5", 
@@ -42,6 +42,10 @@ export class SkillsComponent implements OnInit {
       name: "Angular"
     },
     {
+      icon: "devicons-react",
+      name: "React"
+    },
+    {
       icon: "devicons-jquery",
       name: "JQuery"
     },
@@ -54,16 +58,60 @@ export class SkillsComponent implements OnInit {
       name: "NodeJS"
     },
     {
-      icon: "devicons-jira",
-      name: "Jira"
+      icon: "devicons-ruby",
+      name: "Ruby"
+    },
+    {
+      icon: "devicons-ruby_on_rails",
+      name: "Rails"
+    },
+    {
+      icon: "devicons-postgresql",
+      name: "PostgreSQL"
+    },
+    {
+      icon: "devicons-git",
+      name: "Git"
+    },
+    {
+      icon: "devicons-github",
+      name: "GitHub"
+    },
+    {
+      icon: "devicons-heroku",
+      name: "Heroku"
+    },
+    {
+      icon: "devicons-webstorm",
+      name: "WebStorm"
+    },
+    {
+      icon: "devicons-visualstudio",
+      name: "Visual Studio"
+    },
+    {
+      icon: "devicons-slack",
+      name: "Slack"
+    },
+    {
+      icon: "devicons-wordpress",
+      name: "Wordpress"
+    },
+    {
+      icon: "devicons-illustrator",
+      name: "Illustrator"
     }
   ];
 
     skillArr:Array<string> = [
-        "Specialised in Adobe Experience Manager",
-        "Unit Testing",
-        "Agile Development & Scrum",
-        "Client oriented",
+        "Certified Scrum Master: Completed Scrum Master & Agile Development training; experience with leading & participating in Agile development practices",
+        "Programming Languages & Frameworks: Java, HTML, CSS, Javascript, jQuery, Bootstrap, Web Components, Polymer, ReactJS, AngularJS, Objective-C, C#, SQL, PostgreSQL",
+        "Knowledgeable About: Object-Oriented Programming, Git & GitHub, ASP.NET, MVC, REST APIs, SQL Server, NoSQL, RabbitMQ",
+        "Computer Applications: Eclipse, Visual Studio, Unity, WebStorm, Balsamiq, Final Cut Pro, iMovie, Premier, Photoshop, InDesign, Illustrator, Logic Pro",
+        "Database Development",
+        "Front-End Development & Design",
+        "User Testing, Mockups, & Prototyping",
+        "Project Management"
     ];
 
   ngOnInit() {

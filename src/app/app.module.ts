@@ -12,7 +12,6 @@ import { ExperienceComponent } from './experience/experience.component';
 import { InterestsComponent } from './interests/interests.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 import { AppRoutingModule } from './app-routing.module';
 
 
@@ -26,8 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
     ExperienceComponent,
     InterestsComponent,
     SkillsComponent,
-    SidebarComponent,
-    LanguageSelectorComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

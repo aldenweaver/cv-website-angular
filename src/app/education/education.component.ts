@@ -19,22 +19,22 @@ export class EducationComponent implements OnInit {
 
 	public educationArr:EducationData[] = [
 	    {
-	        school: "Universitat Oberta de Catalunya",
-	        degree: "Bachelor of Science",
-	        department: "Software Engineering",
-	        startDate: "September 2016",
-	        endDate: "Present",
+	        school: "Scripps College",
+	        degree: "Bachelor of Arts",
+	        department: "Media Studies & Computer Science via the Harvey Mudd Computer Science program",
+	        startDate: "August 2010",
+	        endDate: "June 2015",
 	        icon: "fa-code",
-	        status: "In Progress"
+	        status: "Completed"
 	    },
 	    {
-	        school: "Universitat de Barcelona",
-	        degree: "Bachelor of Science",
-	        department: "Physics",
-	        startDate: "September 2012",
-	        endDate: "June 2015",
-	        icon: "fa-atom",
-	        status: "Unfinished"
+	        school: "The Overlake School",
+	        degree: "High School",
+	        department: "National Merit Scholarship Winner & AP Scholar with Distinction",
+	        startDate: "September 2006",
+	        endDate: "June 2010",
+	        icon: "fa-school",
+	        status: "Completed"
 	    },
 	];
 

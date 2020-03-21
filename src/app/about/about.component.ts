@@ -28,33 +28,29 @@ export interface SocialInfo {
 export class AboutComponent implements OnInit {
 
   public personalInfo:PersonalInformation = {
-        firstName: "Gabriela",
-        lastName: "Benejam",
+        firstName: "Alden",
+        lastName: "Weaver",
         address: {
-            city: "Geneva",
-            state: "Switzerland",
+            city: "Seattle",
+            state: "Washington",
         },
-        email: "gbenejamborras@gmail.com",
-        description: "Full Stack developer. Currently working as a Technical Consultant developing web solutions with Adobe Experience Manager. Exploring different Web Technologies on my free time.",
-        quote: "Never stop learning; for when we stop learning, we stop growing.",
+        email: "aldenweavercodes@gmail.com",
+        description: "Full Stack Engineer with a Passion for Front-End Development, Product Management, Product Development, & Design",
+        quote: "'Whether you believe you can do a thing or not, you are right.' — Henry Ford",
     };
 
     public socialData:SocialInfo[] = [
         {
-            iconClassInfo: "fab fa-twitter fa-stack-1x fa-inverse",
-            url: "https://twitter.com/GubsBenejam"
-        },
-        {
             iconClassInfo: "fab fa-linkedin fa-stack-1x fa-inverse",
-            url: "https://www.linkedin.com/in/gabriela-benejam/"
+            url: "https://www.linkedin.com/in/aldenweaver/"
         },
         {
             iconClassInfo: "fab fa-github fa-stack-1x fa-inverse",
-            url: "https://github.com/gbenejam"
+            url: "https://github.com/aldenweaver"
         },
         {
         	iconClassInfo: "fab fa-medium fa-stack-1x fa-inverse",
-        	url:"https://medium.com/@gbenejamborras"
+        	url:"https://medium.com/@aldenweavercodes"
         }
     ];
 

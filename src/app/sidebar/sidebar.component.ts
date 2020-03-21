@@ -18,27 +18,23 @@ export class SidebarComponent implements OnInit {
         "About",
         "Experience",
         "Education",
-        "Projects",
+        // "Projects",
         "Skills",
         "Interests"
     ];
 
     public socialData:SocialInfo[] = [
         {
-            iconClassInfo: "fab fa-twitter fa-stack-1x fa-inverse",
-            url: "https://twitter.com/GubsBenejam"
-        },
-        {
             iconClassInfo: "fab fa-linkedin fa-stack-1x fa-inverse",
-            url: "https://www.linkedin.com/in/gabriela-benejam/"
+            url: "https://www.linkedin.com/in/aldenweaver/"
         },
         {
             iconClassInfo: "fab fa-github fa-stack-1x fa-inverse",
-            url: "https://github.com/gbenejam"
+            url: "https://github.com/aldenweaver"
         },
         {
             iconClassInfo: "fab fa-medium fa-stack-1x fa-inverse",
-            url:"https://medium.com/@gbenejamborras"
+        	url:"https://medium.com/@aldenweavercodes"
         }
     ];
 
