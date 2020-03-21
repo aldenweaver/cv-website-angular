@@ -4,7 +4,7 @@ export interface ExperienceData {
   title:string;
   company:string;
   city:string;
-  duties:string;
+  duties:string[];
   startDate:string;
   endDate:string;
 }
@@ -98,7 +98,30 @@ export class ExperienceComponent implements OnInit {
       ],
       startDate: "Summer 2012",
       endDate: "Fall 2012"
-  }
+  },
+  {
+    title: "Programming Courses Taken in College",
+    company: "Harvey Mudd Computer Science Program",
+    city: "Claremont, CA",
+    duties: [
+      "Intro to Computer Science",
+      "Principles of Computer Science",
+      "Data Structures & Program Development",
+      "Software Development",
+      "Mobile Software Development",
+      "User Interface Design",
+      "Algorithms",
+      "Computer Systems",
+      "Computability & Logic",
+      "Discrete Mathematics",
+      "Programming Languages",
+      "Databases",
+      "HMC CS Clinic (Year-Long Capstone Project)",
+      "HMC CS Colloquium Seminar"
+    ],
+    startDate: "2011",
+    endDate: "2015"
+}
 ];
 
   ngOnInit() {
