@@ -17,7 +17,7 @@ export interface LeadershipExperienceData {
 export class LeadershipExperienceComponent implements OnInit {
 
   
-  public leadershipExperienceArr::LeadershipExperienceData[] = [
+  public leadershipExperienceArr:LeadershipExperienceData[] = [
     {
       title: "Web Designer, Developer, & Project Manager",
       company: "Web PR",
