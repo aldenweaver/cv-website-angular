@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-export interface ExperienceData {
+export interface LeadershipExperienceData {
   title:string;
   company:string;
   city:string;
@@ -10,14 +10,14 @@ export interface ExperienceData {
 }
 
 @Component({
-  selector: 'app-experience',
-  templateUrl: './experience.component.html',
-  styleUrls: ['./experience.component.css']
+  selector: 'app-leadership-experience',
+  templateUrl: './leadership-experience.component.html',
+  styleUrls: ['./leadership-experience.component.css']
 })
-export class ExperienceComponent implements OnInit {
+export class LeadershipExperienceComponent implements OnInit {
 
   
-  public experienceArr:ExperienceData[] = [
+  public leadershipExperienceArr::LeadershipExperienceData[] = [
     {
       title: "Web Designer, Developer, & Project Manager",
       company: "Web PR",

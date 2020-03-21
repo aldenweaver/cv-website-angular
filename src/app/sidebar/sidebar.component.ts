@@ -17,6 +17,8 @@ export class SidebarComponent implements OnInit {
     public navigation:Array<string> = [
         "About",
         "Experience",
+        "Interpersonal Experience"
+        "Leadership Experience"
         "Education",
         // "Projects",
         "Skills",

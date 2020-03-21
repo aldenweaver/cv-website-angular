@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { InterpersonalExperienceComponent } from './interpersonal-experience/interpersonal-experience.component';
+import { LeadershipExperienceComponent } from './leadership-experience/leadership-experience.component';
 import { InterestsComponent } from './interests/interests.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -23,6 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
     EducationComponent,
     ProjectsComponent,
     ExperienceComponent,
+    InterpersonalExperienceComponent,
+    LeadershipExperienceComponent,
     InterestsComponent,
     SkillsComponent,
     SidebarComponent
