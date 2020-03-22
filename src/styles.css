@@ -7,7 +7,7 @@ a {
   color: rgb(0,0,0)!important; 
 }
 a:hover, a:focus, a:active {
-    color: #6E74AA!important; 
+    color: #0000FF!important; 
 }
 
 h1 {
@@ -20,11 +20,11 @@ h2 {
 }
 
 .primary-text {
-  color: #6E74AA;
+  color: #FFD700;
 }
 
 .secondary-text {
-    color: #9fa8da;
+    color: #FFD700;
 }
 
 .subheading {

@@ -1,9 +1,10 @@
 .devicons {
   font-size: 5rem;
+  color: #FFD700;
 }
 
 .devicons:hover {
-  color: #6E74AA;
+  color: #0000FF;
 }
 
 .inline-container {
