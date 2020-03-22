@@ -1,10 +1,11 @@
 @media (max-width: 992px) {
   #sideNav {
     background-color: #0000FF;
+    color: #0000FF; 
   }
 
   .sidebar-background {
-    background-image: url("../../assets/images/sidebar-background.jpg");
+    background-image: url("../../assets/images/navbar-background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,13 +28,14 @@
 }
 @media (min-width: 992px) {
   .sidebar-background {
-    background-image: url("../../assets/images/sidebar-background.jpg");
+    background-image: url("../../assets/images/navbar-background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #FFD700;
-}
+    font-weight: bolder;
+  }
   .list-social-icons a {
   color: #0000FF; 
   }
@@ -76,9 +78,15 @@
     width: 100%; 
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block; 
+    display: block;
+    color: #0000FF; 
+    font-weight: bolder;
+
+
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block; 
+    color: #0000FF;
+    font-weight: bolder;
   } 
 }
