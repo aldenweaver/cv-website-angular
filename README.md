@@ -1,6 +1,12 @@
 Alden Weaver's Personal Website, built using Angular 6 & Bootstrap 4. 
 Adapted from: https://github.com/gbenejam/personal-page-template
 
+Steps to Run:
+1. Download this repository 
+2. Run npm install
+3. Run npm start 
+4. Go to http://localhost:4200/
+
 ######################### ORIGINAL README #########################
 # Resume personal page template
 
